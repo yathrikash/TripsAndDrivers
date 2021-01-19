@@ -16,6 +16,8 @@ Driver:
 		This will register driver
 	Example:
 		Driver Dan
+		
+		
 Trip:
 	Command Format:
 		Trip <registered driver name> <start time> <end time> <total kms>
@@ -23,6 +25,8 @@ Trip:
 		This will add a trip to the registered driver. Note if driver driven average speed < 5kmph or speed > 100 kmph, it will not be considered as trip.
 	Example:
 		ip Dan 7.15 7.45 21.5
+	
+	
 Done:
 	Command format:
 		Done
